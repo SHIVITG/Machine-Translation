@@ -15,8 +15,8 @@ DON'T MODIFY ANYTHING IN THIS CELL
 import helper
 import problem_unittests as tests
 
-source_path = 'data/en_50k.txt'
-target_path = 'data/fr_50k.txt'
+source_path = 'data/en_w35k.txt'
+target_path = 'data/fr_w35k.txt'
 source_text = helper.load_data(source_path)
 target_text = helper.load_data(target_path)
 
